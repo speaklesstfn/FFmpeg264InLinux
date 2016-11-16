@@ -1,0 +1,1119 @@
+common/mc.o: x264-snapshot-20161106-2245-stable/common/mc.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/common/arm/mc.h
+common/predict.o: x264-snapshot-20161106-2245-stable/common/predict.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/common/arm/predict.h
+common/pixel.o: x264-snapshot-20161106-2245-stable/common/pixel.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/common/arm/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/arm/predict.h
+common/macroblock.o: \
+ x264-snapshot-20161106-2245-stable/common/macroblock.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h
+common/frame.o: x264-snapshot-20161106-2245-stable/common/frame.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h
+common/dct.o: x264-snapshot-20161106-2245-stable/common/dct.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/common/arm/dct.h
+common/cpu.o: x264-snapshot-20161106-2245-stable/common/cpu.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h
+common/cabac.o: x264-snapshot-20161106-2245-stable/common/cabac.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h
+common/common.o: x264-snapshot-20161106-2245-stable/common/common.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h
+common/osdep.o: x264-snapshot-20161106-2245-stable/common/osdep.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h
+common/rectangle.o: x264-snapshot-20161106-2245-stable/common/rectangle.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h
+common/set.o: x264-snapshot-20161106-2245-stable/common/set.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h
+common/quant.o: x264-snapshot-20161106-2245-stable/common/quant.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/common/arm/quant.h
+common/deblock.o: x264-snapshot-20161106-2245-stable/common/deblock.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h
+common/vlc.o: x264-snapshot-20161106-2245-stable/common/vlc.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h
+common/mvpred.o: x264-snapshot-20161106-2245-stable/common/mvpred.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h
+common/bitstream.o: x264-snapshot-20161106-2245-stable/common/bitstream.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h
+encoder/analyse.o: x264-snapshot-20161106-2245-stable/encoder/analyse.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/encoder/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/encoder/me.h \
+ x264-snapshot-20161106-2245-stable/encoder/ratecontrol.h \
+ x264-snapshot-20161106-2245-stable/encoder/analyse.h \
+ x264-snapshot-20161106-2245-stable/encoder/rdo.c \
+ x264-snapshot-20161106-2245-stable/encoder/cavlc.c \
+ x264-snapshot-20161106-2245-stable/encoder/cabac.c \
+ x264-snapshot-20161106-2245-stable/encoder/slicetype.c
+encoder/me.o: x264-snapshot-20161106-2245-stable/encoder/me.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/encoder/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/encoder/me.h
+encoder/ratecontrol.o: \
+ x264-snapshot-20161106-2245-stable/encoder/ratecontrol.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/encoder/ratecontrol.h \
+ x264-snapshot-20161106-2245-stable/encoder/me.h
+encoder/set.o: x264-snapshot-20161106-2245-stable/encoder/set.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/encoder/set.h
+encoder/macroblock.o: \
+ x264-snapshot-20161106-2245-stable/encoder/macroblock.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/encoder/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h
+encoder/cabac.o: x264-snapshot-20161106-2245-stable/encoder/cabac.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/encoder/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h
+encoder/cavlc.o: x264-snapshot-20161106-2245-stable/encoder/cavlc.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/encoder/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h
+encoder/encoder.o: x264-snapshot-20161106-2245-stable/encoder/encoder.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/encoder/set.h \
+ x264-snapshot-20161106-2245-stable/encoder/analyse.h \
+ x264-snapshot-20161106-2245-stable/encoder/ratecontrol.h \
+ x264-snapshot-20161106-2245-stable/encoder/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/encoder/me.h
+encoder/lookahead.o: \
+ x264-snapshot-20161106-2245-stable/encoder/lookahead.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/encoder/analyse.h
+common/threadpool.o: \
+ x264-snapshot-20161106-2245-stable/common/threadpool.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h
+encoder/slicetype-cl.o: \
+ x264-snapshot-20161106-2245-stable/encoder/slicetype-cl.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/encoder/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/encoder/me.h
+x264.o: x264-snapshot-20161106-2245-stable/x264.c \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/x264cli.h \
+ x264-snapshot-20161106-2245-stable/input/input.h \
+ x264-snapshot-20161106-2245-stable/x264cli.h \
+ x264-snapshot-20161106-2245-stable/output/output.h \
+ x264-snapshot-20161106-2245-stable/filters/filters.h \
+ x264-snapshot-20161106-2245-stable/filters/video/video.h \
+ x264-snapshot-20161106-2245-stable/input/input.h \
+ x264-snapshot-20161106-2245-stable/filters/filters.h
+input/input.o: x264-snapshot-20161106-2245-stable/input/input.c \
+ x264-snapshot-20161106-2245-stable/input/input.h \
+ x264-snapshot-20161106-2245-stable/x264cli.h \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h
+input/timecode.o: x264-snapshot-20161106-2245-stable/input/timecode.c \
+ x264-snapshot-20161106-2245-stable/input/input.h \
+ x264-snapshot-20161106-2245-stable/x264cli.h \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h
+input/raw.o: x264-snapshot-20161106-2245-stable/input/raw.c \
+ x264-snapshot-20161106-2245-stable/input/input.h \
+ x264-snapshot-20161106-2245-stable/x264cli.h \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h
+input/y4m.o: x264-snapshot-20161106-2245-stable/input/y4m.c \
+ x264-snapshot-20161106-2245-stable/input/input.h \
+ x264-snapshot-20161106-2245-stable/x264cli.h \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h
+output/raw.o: x264-snapshot-20161106-2245-stable/output/raw.c \
+ x264-snapshot-20161106-2245-stable/output/output.h \
+ x264-snapshot-20161106-2245-stable/x264cli.h \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h
+output/matroska.o: x264-snapshot-20161106-2245-stable/output/matroska.c \
+ x264-snapshot-20161106-2245-stable/output/output.h \
+ x264-snapshot-20161106-2245-stable/x264cli.h \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/output/matroska_ebml.h
+output/matroska_ebml.o: \
+ x264-snapshot-20161106-2245-stable/output/matroska_ebml.c \
+ x264-snapshot-20161106-2245-stable/output/output.h \
+ x264-snapshot-20161106-2245-stable/x264cli.h \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/output/matroska_ebml.h
+output/flv.o: x264-snapshot-20161106-2245-stable/output/flv.c \
+ x264-snapshot-20161106-2245-stable/output/output.h \
+ x264-snapshot-20161106-2245-stable/x264cli.h \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/output/flv_bytestream.h
+output/flv_bytestream.o: \
+ x264-snapshot-20161106-2245-stable/output/flv_bytestream.c \
+ x264-snapshot-20161106-2245-stable/output/output.h \
+ x264-snapshot-20161106-2245-stable/x264cli.h \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/output/flv_bytestream.h
+filters/filters.o: x264-snapshot-20161106-2245-stable/filters/filters.c \
+ x264-snapshot-20161106-2245-stable/filters/filters.h \
+ x264-snapshot-20161106-2245-stable/x264cli.h \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/filters/video/video.h \
+ x264-snapshot-20161106-2245-stable/input/input.h \
+ x264-snapshot-20161106-2245-stable/filters/filters.h
+filters/video/video.o: \
+ x264-snapshot-20161106-2245-stable/filters/video/video.c \
+ x264-snapshot-20161106-2245-stable/filters/video/video.h \
+ x264-snapshot-20161106-2245-stable/input/input.h \
+ x264-snapshot-20161106-2245-stable/x264cli.h \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/filters/filters.h \
+ x264-snapshot-20161106-2245-stable/filters/video/video.h
+filters/video/source.o: \
+ x264-snapshot-20161106-2245-stable/filters/video/source.c \
+ x264-snapshot-20161106-2245-stable/filters/video/video.h \
+ x264-snapshot-20161106-2245-stable/input/input.h \
+ x264-snapshot-20161106-2245-stable/x264cli.h \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/filters/filters.h \
+ x264-snapshot-20161106-2245-stable/filters/video/video.h
+filters/video/internal.o: \
+ x264-snapshot-20161106-2245-stable/filters/video/internal.c \
+ x264-snapshot-20161106-2245-stable/filters/video/internal.h \
+ x264-snapshot-20161106-2245-stable/filters/video/video.h \
+ x264-snapshot-20161106-2245-stable/input/input.h \
+ x264-snapshot-20161106-2245-stable/x264cli.h \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/filters/filters.h \
+ x264-snapshot-20161106-2245-stable/filters/video/video.h
+filters/video/resize.o: \
+ x264-snapshot-20161106-2245-stable/filters/video/resize.c \
+ x264-snapshot-20161106-2245-stable/filters/video/video.h \
+ x264-snapshot-20161106-2245-stable/input/input.h \
+ x264-snapshot-20161106-2245-stable/x264cli.h \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/filters/filters.h \
+ x264-snapshot-20161106-2245-stable/filters/video/video.h
+filters/video/cache.o: \
+ x264-snapshot-20161106-2245-stable/filters/video/cache.c \
+ x264-snapshot-20161106-2245-stable/filters/video/video.h \
+ x264-snapshot-20161106-2245-stable/input/input.h \
+ x264-snapshot-20161106-2245-stable/x264cli.h \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/filters/filters.h \
+ x264-snapshot-20161106-2245-stable/filters/video/video.h \
+ x264-snapshot-20161106-2245-stable/filters/video/internal.h
+filters/video/fix_vfr_pts.o: \
+ x264-snapshot-20161106-2245-stable/filters/video/fix_vfr_pts.c \
+ x264-snapshot-20161106-2245-stable/filters/video/video.h \
+ x264-snapshot-20161106-2245-stable/input/input.h \
+ x264-snapshot-20161106-2245-stable/x264cli.h \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/filters/filters.h \
+ x264-snapshot-20161106-2245-stable/filters/video/video.h \
+ x264-snapshot-20161106-2245-stable/filters/video/internal.h
+filters/video/select_every.o: \
+ x264-snapshot-20161106-2245-stable/filters/video/select_every.c \
+ x264-snapshot-20161106-2245-stable/filters/video/video.h \
+ x264-snapshot-20161106-2245-stable/input/input.h \
+ x264-snapshot-20161106-2245-stable/x264cli.h \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/filters/filters.h \
+ x264-snapshot-20161106-2245-stable/filters/video/video.h
+filters/video/crop.o: \
+ x264-snapshot-20161106-2245-stable/filters/video/crop.c \
+ x264-snapshot-20161106-2245-stable/filters/video/video.h \
+ x264-snapshot-20161106-2245-stable/input/input.h \
+ x264-snapshot-20161106-2245-stable/x264cli.h \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/filters/filters.h \
+ x264-snapshot-20161106-2245-stable/filters/video/video.h
+filters/video/depth.o: \
+ x264-snapshot-20161106-2245-stable/filters/video/depth.c \
+ x264-snapshot-20161106-2245-stable/filters/video/video.h \
+ x264-snapshot-20161106-2245-stable/input/input.h \
+ x264-snapshot-20161106-2245-stable/x264cli.h \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h \
+ x264-snapshot-20161106-2245-stable/filters/filters.h \
+ x264-snapshot-20161106-2245-stable/filters/video/video.h
+input/thread.o: x264-snapshot-20161106-2245-stable/input/thread.c \
+ x264-snapshot-20161106-2245-stable/input/input.h \
+ x264-snapshot-20161106-2245-stable/x264cli.h \
+ x264-snapshot-20161106-2245-stable/common/common.h \
+ x264-snapshot-20161106-2245-stable/common/osdep.h config.h \
+ x264-snapshot-20161106-2245-stable/x264.h x264_config.h \
+ x264-snapshot-20161106-2245-stable/common/opencl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl.h \
+ x264-snapshot-20161106-2245-stable/extras/cl_platform.h \
+ x264-snapshot-20161106-2245-stable/common/cabac.h \
+ x264-snapshot-20161106-2245-stable/common/bitstream.h \
+ x264-snapshot-20161106-2245-stable/common/set.h \
+ x264-snapshot-20161106-2245-stable/common/predict.h \
+ x264-snapshot-20161106-2245-stable/common/pixel.h \
+ x264-snapshot-20161106-2245-stable/common/mc.h \
+ x264-snapshot-20161106-2245-stable/common/frame.h \
+ x264-snapshot-20161106-2245-stable/common/dct.h \
+ x264-snapshot-20161106-2245-stable/common/quant.h \
+ x264-snapshot-20161106-2245-stable/common/cpu.h \
+ x264-snapshot-20161106-2245-stable/common/threadpool.h \
+ x264-snapshot-20161106-2245-stable/common/macroblock.h \
+ x264-snapshot-20161106-2245-stable/common/rectangle.h
