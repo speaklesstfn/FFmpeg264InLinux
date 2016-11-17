@@ -27,24 +27,34 @@ public class ThreadActivity extends AppCompatActivity {
     private TextView mResultTxt = null;
     private RelativeLayout mWaitRL = null;
 
-    private String basePath = "/storage/emulated/0/mydata/vivo";
-    private String targetPath = basePath + File.separator + "testoo.mp4";
     private SimpleDateFormat sFormat1 = new SimpleDateFormat("HH:mm:ss");
     private String startTime = "00:00:00";
     private String endTime = "00:00:00";
     private long startMill = 0L;
     private long endMill = 0L;
     private long totalTime = 0L;
-
+    private final String basePath = "/storage/emulated/0/mydata";
+    private final String fileName = "outout";
+    //    private final String bitps = "ori";
+//        private final String bitps = "1M";
+    private final String bitps = "0.5M";
+    //    private final String bitps = "0.2M";
+//private final String resolution = "ori";
+    private final String resolution = "272x480";
+    //    private final String frameRate = "ori";
+    private final String frameRate = "24";
+    private final String originPath = basePath + File.separator
+            + fileName + ".mp4";
+    private final String targetPath = basePath + File.separator
+            + "outout" + "_x264_linux_" + bitps + "_" + resolution + "_" + frameRate + ".mp4";
     private String[] cmds = {
             "ffmpeg",
             "-i",
-            basePath + File.separator + "video_20161111_164706.mp4",
-//            basePath + File.separator + "VID_20161115_135829.mp4",
-//            "-b", "0.2M",
-//            "-s", "720x1080",
-//            "-r", "24",
-//            "-c:v", "libx264",
+            originPath,
+            "-b", bitps,
+            "-s", resolution,
+            "-r", frameRate,
+            "-vcodec", "libx264",
             targetPath,
     };
 
@@ -73,6 +83,7 @@ public class ThreadActivity extends AppCompatActivity {
     }
 
     private void threadTranscodeBtnOnClick() {
+        Logger.d("thread----threadTranscodeBtnOnClick()");
         new MyAsyncTask().execute(cmds);
     }
 
