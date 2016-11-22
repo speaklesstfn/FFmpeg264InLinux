@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}/../../../libavutil
+includedir=/home/tfn/AndroidStudioProjects/FFmpeg264InLinux/ffmpeg/android_ffmpeg/ffmpegsrc
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 55.28.100
+Requires: 
+Conflicts:
+Libs: -L${libdir} -Wl,-rpath,${libdir} -lavutil 
+Cflags: -I${includedir}

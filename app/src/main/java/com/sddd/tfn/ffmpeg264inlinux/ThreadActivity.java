@@ -33,28 +33,29 @@ public class ThreadActivity extends AppCompatActivity {
     private long startMill = 0L;
     private long endMill = 0L;
     private long totalTime = 0L;
-    private final String basePath = "/storage/emulated/0/mydata";
-    private final String fileName = "outout";
-    //    private final String bitps = "ori";
-//        private final String bitps = "1M";
+    private final String basePath = "/storage/emulated/0/testdir/";
+    private final String fileName = "04";
+    //        private final String bitps = "ori";
+//    private final String bitps = "1M";
     private final String bitps = "0.5M";
-    //    private final String bitps = "0.2M";
-//private final String resolution = "ori";
+    //    private final String bitps = "0.6M";
+//    private final String resolution = "ori";
     private final String resolution = "272x480";
     //    private final String frameRate = "ori";
     private final String frameRate = "24";
-    private final String originPath = basePath + File.separator
-            + fileName + ".mp4";
-    private final String targetPath = basePath + File.separator
-            + "outout" + "_x264_linux_" + bitps + "_" + resolution + "_" + frameRate + ".mp4";
-    private String[] cmds = {
+    private final String originPath = basePath + fileName + "_in.mp4";
+    private final String targetPath = basePath + fileName + "_out_264_linux_" + bitps + "_" + resolution + "_" + frameRate + ".mp4";
+    private final String[] cmds = {
             "ffmpeg",
+//            "-hwaccel","h264_mediacodec",
             "-i",
             originPath,
             "-b", bitps,
             "-s", resolution,
             "-r", frameRate,
+//            "-hwaccel","mediacodec",
             "-vcodec", "libx264",
+            "-y",
             targetPath,
     };
 

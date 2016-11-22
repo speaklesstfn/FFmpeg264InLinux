@@ -28,7 +28,6 @@ $FFMPEGDIR/configure \
     --enable-nonfree \
     --enable-version3 \
     --enable-gpl \
-    --enable-small \
     --enable-libx264 \
     --enable-encoder=libx264 \
     --enable-zlib \
