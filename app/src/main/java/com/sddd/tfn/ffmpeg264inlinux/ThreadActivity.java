@@ -34,7 +34,7 @@ public class ThreadActivity extends AppCompatActivity {
     private long endMill = 0L;
     private long totalTime = 0L;
     private final String basePath = "/storage/emulated/0/testdir/";
-    private final String fileName = "04";
+    private final String fileName = "01";
     //        private final String bitps = "ori";
 //    private final String bitps = "1M";
     private final String bitps = "0.5M";
